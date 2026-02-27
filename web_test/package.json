@@ -1,0 +1,27 @@
+{
+  "name": "web_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "wtr"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@remcovaes/web-test-runner-vite-plugin": "^1.4.0",
+    "@web/test-runner": "^0.20.2",
+    "@web/test-runner-commands": "^0.9.0",
+    "@web/test-runner-playwright": "^0.11.1",
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "playwright": "^1.58.2",
+    "sass": "^1.97.3",
+    "vite": "^6.3.5"
+  }
+}

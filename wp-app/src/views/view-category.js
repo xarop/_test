@@ -18,7 +18,7 @@ import { categoryStyles } from '../styles/category.styles.js';
 import { Icon } from '../icons.js';
 import '../components/post-card.js';
 
-const PER_PAGE = 9;
+const PER_PAGE = 12;
 
 export class ViewCategory extends LitElement {
     static styles = [sharedStyles, stateStyles, categoryStyles];

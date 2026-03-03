@@ -13,7 +13,7 @@ import { stateStyles } from '../styles/shared.styles.js';
 import { gridStyles } from '../styles/grid.styles.js';
 import '../components/post-card.js';
 
-const PER_PAGE = 9;
+const PER_PAGE = 12;
 
 export class ViewGrid extends LitElement {
     static styles = [sharedStyles, stateStyles, gridStyles];
